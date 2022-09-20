@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <img class="Logo" src="imagenes/Logo.png"alt="Inicial Logo de Alura">
+        </nav>
+
+        <div class="page-container">
+
+            <div class="main-section">
+           
+                <textarea id="texto-entrada" placeholder="Ingrese el texto aqui"></textarea>
+
+                <div class="section-warning mb-16">
+                    <img class="Logo" src="warning.svg" alt="">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+
+                <div class="section-buttons mb-64">
+                    <button id="encriptar" class="btn btn-primary mb-24" type="button"
+                        onclick="encriptar()">Encriptar</button>
+                    <button id="desencriptar" class="btn btn-secondary" type="button"
+                        onclick="desencriptar()">Desencriptar</button>
+                </div>
+
+            </div>
+
+            <div class="section-result mb-64">
+                <img id="kenshin" class="d-none" src="imagenes/rurouni-kenshin-dizzy.gif" alt="kenshin">
+                <p id="titulo-salida" class="title mb-16">Ningún mensaje fue encontrado</p>
+                <p id="texto-salida" class="result">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+                <button id="copiar" class="btn btn-secondary mt-16 d-none" type="button"
+                    onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
+
+
+
