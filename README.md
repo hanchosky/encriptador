@@ -13,7 +13,7 @@
 Clonar el proyecto
 
 ```bash
-  git clone https://github.com/hanchosky/Challenge-Oracle-ONE-Mi-Encriptador-de-texto.git
+  git clone https://github.com/hanchosky/encriptador.git
 ```
 
 Ir al directorio del proyecto
